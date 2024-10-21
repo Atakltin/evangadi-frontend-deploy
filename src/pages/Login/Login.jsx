@@ -124,6 +124,14 @@ const Login = ({ onClick, className }) => {
               )}
             </span>
           </div>
+          <div className="fs-4 mt-4">
+            <span
+              onClick={() => navigate("/forgot-password")} // Replace with your forgot password route
+              className="forgot text-warning cursor--pointer"
+            >
+              Forgot Password?
+            </span>
+          </div>
           <button className="btn btn-primary w-100 p-3 fs-3 mt-5" type="submit">
             Login
           </button>

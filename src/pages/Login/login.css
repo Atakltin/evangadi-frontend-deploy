@@ -1,5 +1,6 @@
 .cursor--pointer {
     cursor: pointer;
+    
 }
 
 .show--pass {
@@ -10,4 +11,7 @@
 
 .show--pass:hover {
     color: orange;
+}
+.forgot{
+    margin-left: 250px;
 }

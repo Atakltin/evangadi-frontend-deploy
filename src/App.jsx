@@ -8,6 +8,7 @@ import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import QuestionPage from "./pages/Question/Question";
 import Register from "./pages/Register/Register";
+import ForgotPassword from "./pages/ForgotPassword/ForgotPassword"
 // import AskQuestion from "./pages/AskQuestions/AskQuestion";
 // import AnswerQuestion from "./pages/AnswerQuestion";
 // import DashBoard from "./pages/DashBoard";
@@ -48,6 +49,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Auth />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/forgot-password" element={<ForgotPassword/>}/>
         <Route path="/register" element={<Register />} />
         <Route path="/questions/:id" element={<QuestionPage />} />
         <Route path="/ask-question" element={<AskQuestion />} />
