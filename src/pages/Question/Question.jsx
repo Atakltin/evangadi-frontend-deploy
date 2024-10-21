@@ -110,7 +110,7 @@ function QuestionPage() {
                 </div>
               ))
             ) : (
-              <h3>Enter The First Answer:(</h3>
+              <h3>Enter The First Answer:</h3>
             )}
           </div>
         </div>
