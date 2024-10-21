@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-react": "^7.25.7",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.4",
     "@testing-library/jest-dom": "^5.17.0",
