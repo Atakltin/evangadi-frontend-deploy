@@ -14,7 +14,7 @@ const AskQuestion = () => {
   const descriptionDom = useRef(null);
   const tagDom = useRef(null);
 
-  // const [loading, setLoading] = useState(false); // Loading state
+   const [loading, setLoading] = useState(false); // Loading state
   const [successMessage, setSuccessMessage] = useState(''); // Success message state
   const [errorMessage, setErrorMessage] = useState(''); // Error message state
 
