@@ -23,7 +23,7 @@ const ForgotPassword = () => {
     }
 
     try {
-      const response = await axios.post("/users/reset-password", {
+      await axios.post("/users/reset-password", {
         password: newPassword,
       });
       setSuccess("Your password has been successfully reset.");

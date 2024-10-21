@@ -25,7 +25,7 @@ function Auth() {
     setIsLogin((prev) => !prev); // Toggle between login and register
   };
 
-  if (isLoading) return <Loading />;
+  if (isLoading) return <Loading />; // Show loading spinner while isLoading is true
 
   return (
     <LayOut>
@@ -39,7 +39,11 @@ function Auth() {
                 }`}
                 ref={loginRef}
               >
-                <Login key="login" onClick={toggleForm} />
+                <Login
+                  key="login"
+                  onClick={toggleForm}
+                  setIsLoading={setIsLoading} // Pass setIsLoading to Login component
+                />
               </div>
               <div
                 className={`form register-form ${
@@ -47,7 +51,11 @@ function Auth() {
                 }`}
                 ref={registerRef}
               >
-                <Register key="register" onClick={toggleForm} />
+                <Register
+                  key="register"
+                  onClick={toggleForm}
+                  setIsLoading={setIsLoading} // Pass setIsLoading to Register component
+                />
               </div>
             </div>
           </div>
